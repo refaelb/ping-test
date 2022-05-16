@@ -1,5 +1,5 @@
 #!/bin/bash
-VMLIST=( 0.0.0.0 127.0.0.1 8.8.8.8 ) 
+VMLIST=( 0.0.0.0 127.0.0.1 8.8.8.8 3.3.3.3) 
 while true; do
     count=0
     for vm in ${VMLIST[@]}
